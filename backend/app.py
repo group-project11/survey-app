@@ -1,4 +1,10 @@
-from flask import Flask
+from flask import Flask, Blueprint
+
+def getBluePrints():
+    blue_prints = []
+    for blue_print in blue_prints:
+        app.register_blue_print(blue_print)
+    return blue_prints
 
 #test test
 
