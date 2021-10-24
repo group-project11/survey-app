@@ -1,6 +1,10 @@
-from flask import Flask
+from flask import Flask, Blueprint
 
-#test test
+def getBluePrints():
+    blue_prints = []
+    for blue_print in blue_prints:
+        app.register_blue_print(blue_print)
+    return blue_prints
 
 @app.route('/')
 def home():
